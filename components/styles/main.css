@@ -401,6 +401,11 @@ body {
     font-weight: 500;
 }
 
+/*=== Passiont Banner Starts here ==*/
+.text-banner {
+    font-size: 40px;
+}
+
 .card {
     background: rgba(61, 60, 72, 0.22);
     border-radius: 16px;
