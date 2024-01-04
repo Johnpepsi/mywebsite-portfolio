@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
+  "name": "components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "John Palganas",
+  "license": "ISC",
+  "description": "Portfolio Website"
+}
