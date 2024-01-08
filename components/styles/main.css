@@ -15,7 +15,7 @@ body {
 
 /* ========== Navbar ========== */
 .navbar {
-  background-color: #000323;
+  background-color: #0b011d;
   z-index: 4;
   position: fixed;
   top: 0;
@@ -85,7 +85,7 @@ body {
 }
 
 .container-fluid {
-    background-color: #000323;
+    background-color: #0b011d;
 }
 
 .main-heading {
@@ -158,7 +158,7 @@ body {
 
 /* ========== ABOUT PAGE ========== */
 .about-page {
-  background-color: #000323;
+  background-color: #0b011d;
 }
 
 .about-page {
@@ -185,25 +185,25 @@ body {
 }
 
 #A {
-  color: #ce205b;
+    color: #ce205b;
 }
 
 .wrapper {
     background-color: #a3e4df;
-  box-sizing: content-box;
-  height: 70px;
-  padding: 90px 0;
-  display: flex;
-  justify-content: center;
-  font-size: 3rem;
-  font-weight: 900;
+    box-sizing: content-box;
+    height: 70px;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 .skills span {
   display: block;
   height: 100px;
   padding-left: 10px;
-  color: #fb8700;
+  color: #ce205b;
   animation: spin_words 27s infinite;
 }
 
@@ -379,7 +379,7 @@ body {
 
 /* ========== Projects Page ========== */
 .projects {
-    background-color: #000323;
+    background-color: #0b011d;
     padding-bottom: 100px;
 }
 
@@ -401,13 +401,14 @@ body {
     font-weight: 500;
 }
 
-/*=== Passiont Banner Starts here ==*/
+/*=== Passion Banner and More Project ==*/
 .text-banner {
     font-size: 40px;
 }
 
+
 .card {
-    background: rgba(61, 60, 72, 0.22);
+    background: rgba(114, 54, 106, 0.22);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.5px);
@@ -498,14 +499,14 @@ body {
 }
 
 #overlay {
-    background-color: #000323;
+    background-color: #0b011d;
     width: 100%;
     height: 100%;
     font-family: "Poppins", cursive;
 }
 
 #overlay form {
-    background-color: #000323;
+    background-color: #0b011d;
     width: 100%;
 }
 
@@ -602,7 +603,7 @@ input[type="submit"]:hover {
 
 /* ========= Footer ========== */
 .footer {
-  background: #000323;
+  background: #0b011d;
   width: 100%;
   text-align: center;
   padding: 30px 0;
@@ -679,3 +680,87 @@ input[type="submit"]:hover {
     font-size: 2.5rem;
   }
 }
+
+
+/* Tech Stack Slide */
+
+.tech-stack-slider {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem 0;
+  animation: scroll 45s linear infinite;
+  padding: 0rem;
+}
+
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.slider-container:hover, .tech-stack-slider:hover, .tech-stack-slider img:hover {
+  animation-play-state: paused;
+}
+
+.slider-container::before, .slider-container::after {
+  background: linear-gradient(to right, #0b011d 0%, rgba(150, 45, 45, 0) 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+
+.slider-container::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+  z-index: 0;
+}
+
+.slider-container::before {
+  left: 0;
+  top: 0;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0%);
+  }
+
+  100% {
+      transform: translateX(-60%);
+  }
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.tech-icon {
+  width: 8rem;
+  transition: .3s;
+  filter: grayscale(100%);
+}
+
+.tech-icon + p {
+  opacity: 0;
+  transition: .3s;
+  position: absolute;
+  bottom: -2.5rem;
+}
+
+.tech-icon:hover {
+  transform: translateY(-2.5rem);
+  filter: grayscale(0%);
+}
+
+.tech-icon:hover + p {
+  opacity: 1;
+}
+
+/* tech slide finishes here */
