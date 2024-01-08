@@ -32,8 +32,8 @@ let projects = [
         id: 4,
         title: "Meme kit",
         subtitle: "To facilitate future development or collaboration, I prepared detailed documentation for the project, including data models, view controllers, and API endpoints. This Funny Moment Memes Project that I created for fun by using tools such as NPM and DOM. This Project sharpened my skills to work with Document Object Model. DOM allows JavaScript to interact with, and manipulate, the content, structure, and style of the web page",
-        imgSrc: "./components/assets/meme-kit.png",
-        repoLink: "https://github.com/Johnpepsi/my-memeKit",
+        imgSrc: "./components/assets/Meme-kit.png",
+        repoLink: "https://github.com/Johnpepsi/memeKit",
         techStack: ["DOM, JavaScript, HTML5, CSS3, NPM"]
     },
 
