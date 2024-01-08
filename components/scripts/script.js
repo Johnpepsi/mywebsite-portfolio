@@ -18,11 +18,12 @@ let projects = [
         techStack: ["DOM, JavaScript, MongoDB, NPM, EJS, React"]
     },
 
+
     {
         id: 3,
         title: "War Card Game",
         subtitle: "I developed this game as a practice. This is a card game built in Swift, it can be a fun and rewarding experience for anyone interested in game development. With its powerful and easy-to-use features, Swift is an ideal programming language for creating card games that are fast, reliable, and visually appealing.",
-        imgSrc: "./components/assets/war-card.png",
+        imgSrc: "./Components/assets/war-card.png",
         repoLink: "https://github.com/Johnpepsi/WarCardUI",
         techStack: ["SwiftUI, XCode, Testing, Core Data"]
     },
@@ -31,7 +32,7 @@ let projects = [
         id: 4,
         title: "Meme kit",
         subtitle: "To facilitate future development or collaboration, I prepared detailed documentation for the project, including data models, view controllers, and API endpoints. This Funny Moment Memes Project that I created for fun by using tools such as NPM and DOM. This Project sharpened my skills to work with Document Object Model. DOM allows JavaScript to interact with, and manipulate, the content, structure, and style of the web page",
-        imgSrc: "./components/assets/Meme-kit.png",
+        imgSrc: "./components/assets/meme-kit.png",
         repoLink: "https://github.com/Johnpepsi/my-memeKit",
         techStack: ["DOM, JavaScript, HTML5, CSS3, NPM"]
     },
@@ -39,7 +40,7 @@ let projects = [
     {
         id: 5,
         title: "Simon Challenge Game",
-        subtitle: " This project involves developing an interactive game that enhances memory and pattern recognition skills. Users will engage with a digital interface consisting of four colored buttons: green, red, yellow, and blue. The game will generate a sequence of tones and lights, requiring the user to repeat the sequence by pressing the buttons in the correct order.",
+        subtitle: "This project involves developing an interactive game that enhances memory and pattern recognition skills. Users will engage with a digital interface consisting of four colored buttons: green, red, yellow, and blue. The game will generate a sequence of tones and lights, requiring the user to repeat the sequence by pressing the buttons in the correct order.",
         imgSrc: "./components/assets/Simon-chal.png",
         repoLink: "https://github.com/Johnpepsi/Simon-challenge",
         techStack: ["DOM, JavaScript, NPM, Soundkit"]
@@ -47,11 +48,11 @@ let projects = [
 
     {
         id: 6,
-        title: "Portfolio Website",
-        subtitle: "Here is my very own portfolio website which contains my personal and contact information.",
-        imgSrc: "./components/assets/portfolio.png",
-        repoLink: "https://github.com/Johnpepsi",
-        techStack: ["HTML5", "CSS3", "JavaScript (ES6), MongoDB"]
+        title: "Pokemon API Project",
+        subtitle: "I managed to implement an API for fetching the Data through JavaScript in this project. I utilized this API website https://pokeapi.co/ by calling out pokemons. I also created audio to make it more fun by adding Sound button so if someone were interested they can look-up pokemon with nostalgic sound. Tools that I used in this project were NPM, JavaScript Vanilla, APis.",
+        imgSrc: "./components/assets/Pokemon-apiproject.png",
+        repoLink: "https://github.com/Johnpepsi/pokemon-search-api",
+        techStack: ["HTML5", "CSS3", "JavaScript (ES6), NPM, APIs"]
     }
 
 ]
