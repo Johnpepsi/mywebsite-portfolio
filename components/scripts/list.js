@@ -14,7 +14,7 @@ let projects = [
         title: "Scanner QR GitHub",
         subtitle: "Here is my first QR-Image project where I implemented my URL link from GitHub. I used tools such as NPM module, JavaScript, Git bash scripting. By implementing the right command tools, I successfully made QR to prompt my personal website. I also had to use the qr-image npm package to turn the user entered URL into a QR Code image.",
         imgSrc: "./components/assets/Scan-QR project.png",
-        repoLink: "https://github.com/Johnpepsi/Attendance-System-QR",
+        repoLink: "https://github.com/Johnpepsi/QR-imageproject",
         techStack: ["DOM, JavaScript, MongoDB, NPM, EJS, React"]
     },
 
