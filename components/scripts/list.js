@@ -23,7 +23,7 @@ let projects = [
         id: 3,
         title: "Portfolio Website",
         subtitle: "Here is my very own portfolio website which contains my personal and contact information. The website is hosted online cloud platform hosting service where I utilized vercel for my all personal stuff. I learned implementing code in such as a clean code and more organized folder for using React.JS.",
-        imgSrc: "./Components/assets/portfolio.png",
+        imgSrc: "./components/assets/portfolio.png",
         repoLink: "https://github.com/Johnpepsi/mywebsite-portfolio",
         techStack: ["HTML5", "CSS3", "JavaScript (ES6), NPM, DOM"]
     }
