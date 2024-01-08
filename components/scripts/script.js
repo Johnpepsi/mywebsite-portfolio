@@ -23,7 +23,7 @@ let projects = [
         id: 3,
         title: "War Card Game",
         subtitle: "I developed this game as a practice. This is a card game built in Swift, it can be a fun and rewarding experience for anyone interested in game development. With its powerful and easy-to-use features, Swift is an ideal programming language for creating card games that are fast, reliable, and visually appealing.",
-        imgSrc: "./Components/assets/war-card.png",
+        imgSrc: "./components/assets/war-card.png",
         repoLink: "https://github.com/Johnpepsi/WarCardUI",
         techStack: ["SwiftUI, XCode, Testing, Core Data"]
     },
