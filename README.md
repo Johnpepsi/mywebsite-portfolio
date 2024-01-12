@@ -4,3 +4,4 @@ The website is hosted online's cloud platform hosting service.
 
 ## You can check out the website here: https://john-palaganas-websiteportfolio.vercel.app/index.html
 * This is still on going portfolio by adding more features, certificates and experiences.
+* Certificates and capstone projects
