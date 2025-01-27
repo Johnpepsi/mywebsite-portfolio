@@ -15,7 +15,7 @@ body {
 
 /* ========== Navbar ========== */
 .navbar {
-  background-color: #0b011d;
+  background-color: #d4cedd05;
   z-index: 4;
   position: fixed;
   top: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .nav-link {
-  color: #fff;
+  color: #0b011d;
   position: relative;
   padding: 20px 0;
   margin: 0 20px;
@@ -85,12 +85,16 @@ body {
 }
 
 .container-fluid {
-    background-color: #0b011d;
+    /* background-color: #0b011d; */
+    background-image: url(https://pixelz.cc/wp-content/uploads/2017/11/sulphur-mountain-banff-national-park-alberta-canada-uhd-4k-wallpaper.jpg);
+    background-size: cover; /* Ensures the image covers the entire container */
+    width: 100%;
+    height: 100%;
 }
 
 .main-heading {
   z-index: 4;
-  padding-top: 190px;
+  padding-top: 250px;
   font-family: "Press Start 2P", cursive;
   font-weight: 900;
   font-size: 3.6rem;
@@ -98,21 +102,21 @@ body {
 }
 
 .main-heading span {
-  padding: 10px;
+  padding: 5px;
 }
 
 .green-font {
-  color: #59ee54;
-  text-shadow: 0 0 0.3em #eeb854;
+  color: #31a32b;
+  text-shadow: 0 0 0.3em #6ccd9b;
 }
 
 .purple-font {
-  color: #ab55e9;
+  color: #af59ed;
   text-shadow: 0 0 0.3em #ab55e9;
 }
 
 .red-font {
-  color: #cb797a;
+  color: #dc6466;
   text-shadow: 0 0 0.3em #cb797a;
 }
 
@@ -703,7 +707,7 @@ input[type="submit"]:hover {
 }
 
 .slider-container::before, .slider-container::after {
-  background: linear-gradient(to right, #0b011d 0%, rgba(150, 45, 45, 0) 100%);
+  background: linear-gradient(to right, #fcfaff00 0%, rgba(150, 45, 45, 0) 100%);
   content: "";
   height: 100%;
   position: absolute;
