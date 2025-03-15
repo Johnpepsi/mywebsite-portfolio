@@ -130,7 +130,7 @@ document.getElementById("contact-form").onsubmit = function(e) {
 
 // ========== Configuring typing animation ===========
 var typed = new Typed(".auto-type", {
-    strings: ['i0s Mobile Developer', 'Full-Stack Web Developer'],
+    strings: ['Front-End Developer', 'IT System Support'],
     typeSpeed: 60,
     backSpeed: 80,
     loop: true,
