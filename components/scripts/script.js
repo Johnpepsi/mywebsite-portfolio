@@ -157,7 +157,7 @@ document.getElementById("contact-form").onsubmit = function(e) {
 
 // ========== Configuring typing animation ===========
 var typed = new Typed(".auto-type", {
-    strings: ['System Support', 'IT Administrator', 'Front-End Developer'],
+    strings: ['System Support', 'IT Administrator', 'Web Developer'],
     typeSpeed: 60,
     backSpeed: 80,
     loop: true,
