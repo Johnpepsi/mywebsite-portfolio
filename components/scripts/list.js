@@ -26,6 +26,22 @@ let projects = [
         imgSrc: "./components/assets/portfolio.png",
         repoLink: "https://github.com/Johnpepsi/mywebsite-portfolio",
         techStack: ["HTML5", "CSS3", "JavaScript (ES6), NPM, DOM"]
+    },
+    {
+        id: 4,
+        title: "Ecommerce Website",
+        subtitle: "Tech Stack: React, Node.js, Express, MongoDB. This project is a full-stack e-commerce application built with React for the front end and Node.js/Express for the back end. It includes features like product listing, user authentication, and a shopping cart.",
+        imgSrc: "./components/assets/padayon.png",
+        repoLink: "https://padayon.netlify.app/",
+        techStack: ["HTML5", "CSS3", "JavaScript", "NPM", "ReactJS"]
+    },
+    {
+        id: 5,
+        title: "Customer Website",
+        subtitle: "This website was implemented for a business reason, I used as a customer website. I learned to implement the code in such a clean code and more organized folder for using React.JS. I also learned to use the tools such as NPM, React.JS, and SQL.",
+        imgSrc: "./components/assets/goosecreek.png",
+        repoLink: "https://goosecreekbernerese.netlify.app/",
+        techStack: ["HTML5", "CSS3", "JavaScript", "DOM"]
     }
 
 ]
