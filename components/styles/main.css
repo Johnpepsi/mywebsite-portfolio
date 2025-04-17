@@ -11,6 +11,7 @@
 
 body {
     overflow-x: hidden;
+    /* zoom: 90%; */
 }
 
 /* ========== Navbar ========== */
@@ -46,11 +47,11 @@ body {
 }
 
 .nav-link {
-  color: #0b011d;
+  color: #dcd7e196;
   position: relative;
   padding: 20px 0;
   margin: 0 20px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: 0.7s;
 }
@@ -85,8 +86,8 @@ body {
 }
 
 .container-fluid {
-    /* background-color: #0b011d; */
-    background-image: url(/components/assets/forestlake.jpg);
+    /* background-color: #0d0d0d; */
+    background-image: url(/components/assets/homepage.jpg);
     background-size: cover; /* Ensures the image covers the entire container */
     width: 100%;
     height: 100%;
@@ -94,10 +95,10 @@ body {
 
 .main-heading {
   z-index: 4;
-  padding-top: 250px;
+  padding-top: 320px;
   font-family: "Press Start 2P", cursive;
   font-weight: 900;
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   margin-bottom: 35px;
 }
 
@@ -106,17 +107,17 @@ body {
 }
 
 .green-font {
-  color: #31a32b;
-  text-shadow: 0 0 0.3em #6ccd9b;
+  color: #f5ebeb;
+  text-shadow: 0 0 0.3em #cb797a;;
 }
 
 .purple-font {
-  color: #af59ed;
-  text-shadow: 0 0 0.3em #ab55e9;
+  color: #f5f3f6;
+  text-shadow: 0 0 0.3em #cb797a;;
 }
 
 .red-font {
-  color: #dc6466;
+  color: #fcfcfc;
   text-shadow: 0 0 0.3em #cb797a;
 }
 
@@ -125,26 +126,26 @@ body {
   padding: 20px;
   font-family: sans-seif;
   font-weight: 600;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   color: #7196b4;
   text-shadow: 0 0 0.9em #00fb7d;
   border-radius: 16px;
 }
 
 .title-btn {
-  padding: 20px 40px;
+  padding: 10px 10px;
   margin: 90px 0;
   width: 200px;
   border: 4px solid #ab55e9;
   border-radius: 8px;
   background: transparent;
   transition: 1s;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-weight: bold;
   text-decoration: none;
   color: #ff8906;
   transition: 1s;
-  z-index: 3;
+  z-index: 1;
   box-shadow: 0 0 0.9em #ab55e9;
   margin-top: 60px;
 }
@@ -173,7 +174,7 @@ body {
 .about-heading {
   text-align: center;
   font-size: 5rem;
-  padding: 150px 0 40px;
+  padding: 250px 0 40px;
   font-weight: 900;
   font-family: "Press Start 2P", cursive;
   color: #7dffbe;
