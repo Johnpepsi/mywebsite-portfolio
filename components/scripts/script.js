@@ -30,29 +30,27 @@ let projects = [
 
     {
         id: 4,
-        title: "Meme kit",
+        title: "Trend Meme kit",
         subtitle: "To facilitate future development or collaboration, I prepared detailed documentation for the project, including data models, view controllers, and API endpoints. This Funny Moment Memes Project that I created for fun by using tools such as NPM and DOM. This Project sharpened my skills to work with Document Object Model. DOM allows JavaScript to interact with, and manipulate, the content, structure, and style of the web page",
         imgSrc: "./components/assets/Meme-kit.png",
         repoLink: "https://github.com/Johnpepsi/my-memeKit",
         techStack: ["DOM, JavaScript, HTML5, CSS3, NPM"]
     },
-
     {
         id: 5,
-        title: "Simon Challenge Game",
-        subtitle: "This project involves developing an interactive game that enhances memory and pattern recognition skills. Users will engage with a digital interface consisting of four colored buttons: green, red, yellow, and blue. The game will generate a sequence of tones and lights, requiring the user to repeat the sequence by pressing the buttons in the correct order.",
-        imgSrc: "./components/assets/Simon-chal.png",
-        repoLink: "https://github.com/Johnpepsi/Simon-challenge",
-        techStack: ["DOM, JavaScript, NPM, Soundkit"]
+        title: "Customer Ecommerce",
+        subtitle: "Tech Stack: React, Node.js, Express, MongoDB. This project is a full-stack e-commerce application built with React for the front end and Node.js/Express for the back end. It includes features like product listing, user authentication, and a shopping cart.",
+        imgSrc: "./components/assets/padayon.png",
+        repoLink: "https://padayon.netlify.app/",
+        techStack: ["HTML5", "CSS3", "JavaScript", "NPM", "ReactJS"]
     },
-
     {
         id: 6,
-        title: "Pokemon API Project",
-        subtitle: "I managed to implement an API for fetching the Data through JavaScript in this project. I utilized this API website https://pokeapi.co/ by calling out pokemons. I also created audio to make it more fun by adding Sound button so if someone were interested they can look-up pokemon with nostalgic sound. Tools that I used in this project were NPM, JavaScript Vanilla, APis.",
-        imgSrc: "./components/assets/Pokemon-apiproject.png",
-        repoLink: "https://github.com/Johnpepsi/pokemon-search-api",
-        techStack: ["HTML5", "CSS3", "JavaScript (ES6), NPM, APIs"]
+        title: "Customer Host Website",
+        subtitle: "This website was implemented for a business reason, I used as a customer website. I learned to implement the code in such a clean code and more organized folder for using React.JS. I also learned to use the tools such as NPM, React.JS.",
+        imgSrc: "./components/assets/goosecreek.png",
+        repoLink: "https://goosecreekbernerese.netlify.app/",
+        techStack: ["HTML5", "CSS3", "JavaScript", "DOM"]
     }
 
 ]
