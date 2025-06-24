@@ -46,7 +46,7 @@ let projects = [
     },
     {
         id: 6,
-        title: "Customer Host Website",
+        title: "Goosecreek Bernese Website",
         subtitle: "This website was implemented for a business reason, I used as a customer website. I learned to implement the code in such a clean code and more organized folder for using React.JS. I also learned to use the tools such as NPM, React.JS.",
         imgSrc: "./components/assets/goosecreek.png",
         repoLink: "https://goosecreekbernerese.netlify.app/",
